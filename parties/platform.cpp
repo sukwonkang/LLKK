@@ -16,7 +16,7 @@ void Platform::update(float deltaTime, int WORLD_HEIGHT,int WORLD_WIDTH, std::ve
         {
             bool  tooClose = false;
             float yy = 0;                     // Bring platform back to the bottom
-            float xx = rand() % WORLD_WIDTH; // Randomize x position again
+            float xx = rand() % WORLD_WIDTH; // Randomize  x position again
             // Check if the new platform is too close to existing ones
             for (const auto& platform : platforms)
             {
